@@ -1,0 +1,148 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1423;
+}
+
+.wrapper {
+  background-color: #121d30;
+  height: 65em;
+  width: 40em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.equilibrium {
+  border-radius: 1em;
+  width: 35em;
+  margin-top: 2em;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  margin-top: 1em;
+  margin-left: -6em;
+  font-size: 2.5rem;
+}
+
+.profile img {
+  width: 3em;
+}
+
+p {
+  color: #7e91b1;
+}
+
+.para {
+  margin-left: 1.2em;
+  margin-top: 0.1em;
+  font-size: 2rem;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  gap: 20em;
+}
+
+.data p {
+  font-size: 1.3rem;
+}
+
+.ethereum {
+  display: flex;
+  gap: 0.7em;
+}
+
+.ethereum img {
+  width: 1.3em;
+  height: 2em;
+}
+
+.ethereum p {
+  margin-bottom: -1em;
+  margin-top: 0.5em;
+  color: #31f1ed;
+}
+
+h1:hover {
+  color: #31f1ed;
+  cursor: pointer;
+}
+
+.time {
+  display: flex;
+  gap: 0.7em;
+}
+
+.time img {
+  width: 2em;
+  height: 2em;
+}
+
+.time p {
+  margin-top: 0.3em;
+  margin-bottom: -2em;
+}
+
+hr {
+  width: 35em;
+  height: 1.5px;
+  margin-top: 2em;
+  background-color: #1e2b3f;
+  border: none;
+}
+
+.profile {
+  display: flex;
+  margin-top: 1.5em;
+  margin-left: -15em;
+}
+
+.profile img {
+  width: 3em;
+  height: 3em;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.profile p {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  line-height: 0.5em;
+  margin-left: 1em;
+}
+
+span {
+  color: white;
+  margin-left: 0.3em;
+}
+
+span:hover {
+  color: #31f1ed;
+  cursor: pointer;
+}
+
+.view {
+  visibility: hidden;
+  position: absolute;
+  margin-top: -18em;
+  margin-left: -2em;
+}
+
+.equilibrium:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* .canview {
+  visibility: visible;
+} */
