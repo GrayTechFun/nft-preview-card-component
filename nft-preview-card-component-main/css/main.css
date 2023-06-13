@@ -23,7 +23,6 @@ body {
   border-radius: 1em;
   width: 35em;
   margin-top: 2em;
-  position: relative;
 }
 
 h1 {
@@ -131,18 +130,25 @@ span:hover {
   cursor: pointer;
 }
 
-.view {
-  visibility: hidden;
-  position: absolute;
-  margin-top: -18em;
-  margin-left: -2em;
-}
-
 .equilibrium:hover {
   cursor: pointer;
-  color: white;
+  filter: invert(40%) sepia(78%) saturate(490%) hue-rotate(140deg)
+    brightness(88%) contrast(92%);
 }
 
-/* .canview {
-  visibility: visible;
-} */
+/* Make a image hover on another image */
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 15em;
+  top: 18em;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
